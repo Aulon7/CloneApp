@@ -1,0 +1,18 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  gap: 0.75rem;
+  font-size: 14px;
+  min-width: max-content;
+}
+
+.footerTitle {
+  font-weight: 600;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

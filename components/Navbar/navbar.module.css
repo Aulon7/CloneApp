@@ -1,0 +1,47 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid rgba(146, 146, 146, 0.288);
+  gap: 1rem;
+  font-size: 14px;
+}
+
+.navItems {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 1 0%;
+  gap: 2.5rem;
+}
+
+.navLinks {
+  display: none;
+  gap: 1.5rem;
+}
+
+.linkItem a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.1s ease-in-out;
+  text-transform: uppercase;
+}
+
+.linkItem a:hover {
+  transform: scale(1.05);
+  color: #31b3d0;
+}
+
+.navProfileItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .navLinks {
+    display: flex;
+  }
+}
